@@ -32,5 +32,23 @@ int main()
 
     cout << "------ Exercise ------"<<endl;
 
+    string country;
+    char gender;
+    int zipcode;
+    double rate;
+
+    cout << "Enter a country: ";
+    cin >> country;
+    cout << "Enter a gender (f for female, m for male, o for others): ";
+    cin >> gender;
+    cout << "Enter a zip code: ";
+    cin >> zipcode;
+    cout << "Enter a tax rate: ";
+    cin >> rate;
+
+    cout << "\nEntered country:" << country << endl;
+    cout << "Selected gender:" << gender << endl;
+    cout << "Zip code:" << zipcode << endl;
+    cout << "Tax rate:" << rate << endl;
     return 0;
 }
