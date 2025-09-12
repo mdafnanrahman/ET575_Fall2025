@@ -86,7 +86,21 @@ int main() {
     cin>>homework;
 
     grade = final_exam *0.5 + labs*0.3 + homework*0.2;
-    
+        
+    if(grade <=100 && grade >=90)
+        gpa="A";
+    else if(grade >=80)
+        gpa="B";
+    else if(grade >=70)
+        gpa="C";
+    else if(grade >=60)
+        gpa="D";
+    else if(grade >=0)
+        gpa="F";
+    else
+        gpa="";
+
+    cout<<"A final grade of "<<grade<<" is equivalent to a GPA of "<<gpa<<endl;
 
     return 0;
 }
