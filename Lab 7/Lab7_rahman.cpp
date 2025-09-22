@@ -43,7 +43,7 @@ int main(){
             break;
         case 'q':
         case 'Q':
-            cout << "Program quit."<<endl;
+            cout << "Program quit."<< endl;
             break;
         default:
             cout <<"Error: Invalid operation."<<endl;
