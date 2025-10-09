@@ -46,5 +46,4 @@ cout << "Choose conversion type:" << endl;
 // there was not issue but the i chnaged some of the text to make it look like how it was in the Example Output
 
 // 3. What test cases did you try, and why? Explain.
-//i tested both faharenheit and celsius to see of both works and it did also i tetsted the one on example output and i got the same answer
-
+//i tested both faharenheit and celsius to see of both works and it did also I tetsted the one on example output and i got the same answer
