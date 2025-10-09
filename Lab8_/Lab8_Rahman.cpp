@@ -18,7 +18,7 @@ int main() {
     // print from 9 to 1
     int n = 9;
     for (n; n>=1; n--){
-        cout << n << "\t"
+        cout << n << "\t";
     }
     cout<<endl;
 
