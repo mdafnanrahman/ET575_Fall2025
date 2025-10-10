@@ -1,6 +1,6 @@
 /*
 Md afnan rahman
-Lab 8, 
+Lab 8, for loop
 oct 8,2025
 */
 #include<iostream>
@@ -32,8 +32,8 @@ int main() {
     cout<<"\n------ Example 4: for loop with conditional statement------"<<endl;
     // print all numbers between -10 and 10 that are multiples of 3
     for (int p=-10; p<=10; p++){
-        cout << p <<"\t"; // shown as a test
-        cout << endl;
+        //cout << p <<"\t"; // shown as a test
+        //cout << endl;
         if (p%3==0 && p!=0){
             cout << p << "\t";
         }
@@ -65,10 +65,25 @@ int main() {
 
     cout<<"\n------ EXERCISE 1------"<<endl;
 
-    cout<<"\n------ EXERCISE 1------"<<endl;
+    int count_mult2 = 0;
+
+    for (int i = 21; i >= -21; i -= 5) {
+    cout << i << "\t";
+
+    if (i % 2 == 0) {
+        count_mult2++;
+    }
+}
+cout << endl;
+
+    cout<<"\n------ EXERCISE 2------"<<endl;
     int user_input =0;
-    cout<<"Enter an intitial value ";
+    cout<<"Enter an intitial value: ";
     cin>>user_input;
+    for (int m = user_input; m <= 30; m += 4) {  // increment by 4
+    cout <<m << "\t";
+}
+cout << endl;
 
     return 0;
 }
