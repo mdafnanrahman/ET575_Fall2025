@@ -146,7 +146,7 @@ int main() {
             cout<<"The total sum is "<<digit_sum<<endl;
         }
     }while(num2 != 0);
-    cout<<"End of program!"<<endl;
+    cout<<"End of program"<<endl;
     
 
     return 0;
