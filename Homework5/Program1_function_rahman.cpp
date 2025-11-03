@@ -63,7 +63,7 @@ bool inOrder(int n1, int n2, int n3) {
     }
 }
 
-void order_result(int n1, int n2, int n3, bool desc) {
+void order_result(int n1, int n2,int n3,bool desc) {
     cout << "\nYou entered: "<<n1<<", "<<n2<<", "<<n3<<endl;
 
     if (desc)
