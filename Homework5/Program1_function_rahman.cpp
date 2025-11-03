@@ -81,6 +81,6 @@ void order_result(int n1, int n2, int n3, bool desc) {
         bool desc_order = inOrder(num1, num2, num3);
         order_result(num1, num2, num3, desc_order);
     } else {
-        cout << "Program ended.\n";
+        cout << "Program ended.";
     }
 }
