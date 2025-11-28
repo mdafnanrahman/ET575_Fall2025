@@ -21,11 +21,9 @@
     writefile("outputfile.txt");
     cout<<"\n------ Example 5: append data into a file ------"<<endl;
     appendfile("samplefile.txt");
-    cout<<"\n------ Create data_user.txt ------"<<endl;
+    cout<<"\n------ EXERCISE ------"<<endl;
     createdatafile();
-    cout<<"\n------ Append message ------"<<endl;
     appendmessage("Hello, this is my new line.");
-    cout<<"\n------ Read file ------"<<endl;
     readdata("data_user.txt");
     return 0;
  }
